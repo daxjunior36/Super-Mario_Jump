@@ -1,6 +1,8 @@
 const mario = document.querySelector('.mario');
 console.log(mario);
 const pipe = document.querySelector('.pipe');
+const btn = document.querySelector('#refresh');
+
 
 const jump = () => {
   mario.classList.add('jump');
@@ -33,5 +35,9 @@ clearInterval(loop);
 console.log(pipePosition);
 
 }, 10)
+
+btn.addEventListener( 'click', () => {
+  location.reload()
+})
 
 document.addEventListener('keydown', jump);
