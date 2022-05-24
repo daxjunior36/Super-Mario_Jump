@@ -1,6 +1,5 @@
 {
-  "homepage": "https://daxjunior36.github.io/Super-Mario_Jump",
-  "scripts": {
+    "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "webpack --config webpack.config.js"
