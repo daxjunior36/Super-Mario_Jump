@@ -1,14 +1,26 @@
 {
-
-"homepage": "https://username.github.io/app-toot-name",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-},
+  "homepage": "https://daxjunior36.github.io/Super-Mario_Jump",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "webpack --config webpack.config.js"
+  },
   "dependencies": {
     "gh-pages": "^4.0.0"
-  }
-  
+  },
+  "name": "super_mario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxjunior36/Super-Mario_Junp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daxjunior36/Super-Mario_Junp/issues"
+  },
+  "description": ""
 }
-
-
